@@ -54,7 +54,7 @@ public class TodoService {
         this.todoRepository.deleteById(id);
     }
 
-    public void deleteAll(Long id) {
+    public void deleteAll() {
         this.todoRepository.deleteAll();
     }
 }
